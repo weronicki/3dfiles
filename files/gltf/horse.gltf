@@ -1,0 +1,128 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "horse_4_black",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.2495889663696289,
+                0.2495889663696289,
+                0.2495889663696289
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Horse_low0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.006370000075548887,
+                    0.006370000075548887,
+                    0.006370000075548887,
+                    1
+                ],
+                "metallicFactor" : 0.4000000059604645,
+                "roughnessFactor" : 0.8102633357048035
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "horse_4_black",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 45348,
+            "max" : [
+                155.731201171875,
+                213.90231323242188,
+                136.01034545898438
+            ],
+            "min" : [
+                -89.2667236328125,
+                -191.6496124267578,
+                -239.14044189453125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 45348,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 45348,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 259896,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 544176,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 544176,
+            "byteOffset" : 544176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 362784,
+            "byteOffset" : 1088352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 519792,
+            "byteOffset" : 1451136
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1970928,
+            "uri" : "horse.bin"
+        }
+    ]
+}
